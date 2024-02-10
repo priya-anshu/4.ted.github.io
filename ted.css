@@ -208,7 +208,7 @@
         font-family: 'Times New Roman', Times, serif;
         color: aliceblue;
         top: 100px; left: 350px;
-        height: 500px; width: 400px;
+        height: 500px; width: 450px;
         animation:rot 6s 2s infinite;
 
 }
@@ -224,7 +224,7 @@
     #w1{  position: absolute; font-size: 25px;
         font-family: 'Times New Roman', Times, serif;
         color: aliceblue;
-        top: 420px; left: 400px;
+        top: 420px; left: 450px;
         animation:ro 8s 3s infinite;
         height: 60px; width: 375px;
 
@@ -243,7 +243,7 @@
     font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
     top: 0px; left: 350px;
-    height: 500px; width: 400px;
+    height: 500px; width: 450px;
     animation:rot 6s 2s infinite;
 
 }
