@@ -207,7 +207,7 @@
 #sms    {  position: absolute; font-size: 25px;
         font-family: 'Times New Roman', Times, serif;
         color: aliceblue;
-        top: 0px; left: 350px;
+        top: 100px; left: 350px;
         height: 500px; width: 400px;
         animation:rot 6s 2s infinite;
 
@@ -224,7 +224,7 @@
     #w1{  position: absolute; font-size: 25px;
         font-family: 'Times New Roman', Times, serif;
         color: aliceblue;
-        top: 350px; left: 400px;
+        top: 420px; left: 400px;
         animation:ro 8s 3s infinite;
         height: 60px; width: 375px;
 
@@ -237,3 +237,21 @@
             transform: rotateY(-360deg);
         }
       }
+
+      
+#sms1    {  position: absolute; font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    top: 0px; left: 350px;
+    height: 500px; width: 400px;
+    animation:rot 6s 2s infinite;
+
+}
+@keyframes rot{
+0%{
+    transform: rotateY(90deg);
+    transform: rotateY(180deg);
+    transform: rotateY(270deg);
+    transform: rotateY(360deg);
+}
+}
