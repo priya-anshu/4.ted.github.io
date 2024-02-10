@@ -1,0 +1,239 @@
+#head{ z-index: 5;
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    background-color: #f3c428;
+    border-radius: 50% 50% 50% 50%/ 60% 60% 40% 40%;
+    box-shadow:2px 2px 10px rgb(37, 36, 36);
+    background:radial-gradient(circle, #d8b43f 40%, #e9c243 50%, #e4b722 80%) ;
+}
+#R-eye{z-index: 5;
+    position: absolute;
+    top: 90px; left: 120px;
+    width: 35px;
+    height: 35px;
+    background-color: #74716a;
+    border-radius: 48%;
+    animation: blinks 2s infinite;
+
+    background: radial-gradient(ellipse,white 10%, rgb(0, 0, 0) 15%,rgb(0, 0, 0) 50%, white 55%, black 99%);
+}
+#L-eye{ z-index: 5;
+    position: absolute;
+    top: 90px; left: 45px;
+    width: 35px;
+    height: 35px;
+    background-color: #74716a;
+    border-radius: 46%;
+    animation: blinks 2s infinite;
+    background: radial-gradient(ellipse,white 10%, rgb(0, 0, 0) 15%,rgb(0, 0, 0) 50%, white 55%, black 99%);
+}
+
+@keyframes blinks{
+    50%{
+        background:radial-gradient(circle, #d8b43f 40%, #d8b43f 50%, #d4ae2e 80%) ;
+        
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+}
+
+#R-ear{ rotate: 120deg;
+    z-index: 1;
+    position:absolute;
+    top: 8px; left: 155px;
+    width: 100px;
+    height: 100px;
+    background-color: #f3c428;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow:2px 2px 10px rgb(37, 36, 36);
+    background:radial-gradient(circle, #c9a736 40%, #e9c243 50%, #e4b722 80%) ;
+
+}
+#L-ear{ 
+    rotate: 120deg;
+    z-index: 1;
+    position: absolute;
+    top: 10px; left: -40px;
+    width: 100px;
+    height: 100px;
+    background-color: #f3c428;
+    border-radius: 50% 50% 50% 50% /  60% 60% 40% 40%;
+    box-shadow:2px 2px 10px rgb(37, 36, 36);
+    background:radial-gradient(circle, #d1ad37 40%, #e9c243 50%, #e4b722 80%) ;
+
+}
+#nose{ z-index: 3;
+    position: absolute;
+    top: 115px; left: 70px;
+    width: 60px;
+    height: 55px;
+    background-color: #f0e2b6;
+    border-radius: 50% 50% 50% 50%/ 45% 45% 60% 60%;
+    box-shadow:0 2px 5px 3px rgb(189, 144, 62);   
+
+}
+#n1{
+    z-index: 3;
+    position: absolute;
+    top: 25px; left: 27px;
+    width: 4.5px;
+    height: 18px;
+    border-radius:  5%;
+    background-color: rgb(0, 0, 0);
+}
+#n2{
+    position: absolute;
+    top: 25px; left: 13px;
+    width: 15px;
+    height: 15px;
+    border-width: 0 7px 4px 0px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent rgb(0, 0, 0) rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 50px;
+}
+#n3{
+    position: absolute;
+    top: 25px; left: 23.2px;
+    width: 15px;
+    height: 15px;
+    border-width: 0 0 4px 7px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent rgb(0, 0, 0) transparent;
+    background-color: transparent;
+    border-radius: 50%;
+    
+}
+#mouth{
+    z-index: 4;
+    position: absolute;
+    top: 125px; left: 85px;
+    width: 30px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 50% 50% 50% 50%/ 40% 40% 60% 60%;
+    background: radial-gradient(ellipse,rgb(32, 30, 30) 10%, rgb(32, 31, 31) 15%,rgb(0, 0, 0) 50%, rgb(0, 0, 0) 55%, black 99%);
+
+}
+#stomach{ z-index: 2;
+    position: absolute;
+    top: 160px; left: 40px;
+    width: 100px;
+    border-bottom: 180px solid #f3c428;
+    border-radius: 50px 50px 30px 30px;
+    border-left: 10px solid #f3c428;
+    border-right: 10px solid #f3c428;
+    box-shadow:1px 1px 10px  rgb(37, 36, 36);
+    
+}
+
+#R-h{
+    rotate: 20deg;
+    z-index: 3;
+    position: absolute;
+    top: 170px; left: 130px;
+    width: 40px;
+    height: 85px;
+    background-color: #f3c428;
+    border-radius: 50% 50% 50% 50% /  50% 40% 50% 80%;
+    box-shadow:0px 2px 5px 1px rgb(37, 36, 36);   
+}
+#L-h{
+    rotate: -20deg;
+    z-index: 3;
+    position: absolute;
+    top: 170px; left: 30px;
+    width: 40px;
+    height: 85px;
+    background-color: #f3c428;
+    border-radius: 50% 50% 50% 50% /  50% 40% 50% 80%;
+    box-shadow:0px 2px 5px 1px rgb(37, 36, 36);   
+}
+
+
+
+#R-f{
+    rotate: 50deg;
+    z-index: 3;
+    position: absolute;
+    top: 268px; left: 140px;
+    width: 70px;
+    height: 90px;
+    background-color: #f3c428;
+    border-radius: 50% 50% 50% 50% /  40% 40% 70% 70%;
+    box-shadow:2px -2px 10px rgb(37, 36, 36);
+    
+}
+#L-f{
+   
+    rotate: -50deg;
+    z-index: 3;
+    position: absolute;
+    top: 268px; left: 0px;
+    width: 70px;
+    height: 90px;
+    background-color: #f3c428;
+    border-radius: 50% 50% 50% 50% /  40% 40% 70% 70%;
+    box-shadow:-2px -2px 10px rgb(37, 36, 36);
+}
+
+#a1 {
+    rotate: -45deg; z-index: 6;
+    position: absolute;
+    top: 200px; left: 95px;
+    height: 90px; width: 55px;
+    background-color: red;
+    border-radius: 150px 150px 0 0;
+    animation: la1 2.9s infinite;
+    transform-origin: bottom center;
+    box-shadow: 0 0 10px rgba(236, 97, 3, 0.5);
+}
+#a2 {
+    rotate: 45deg; z-index: 6;
+    position: absolute;
+    top: 199px; left: 58px;
+    height: 90px; width: 55px;
+    background-color: red;
+    border-radius: 150px 150px 0 0;
+    animation: ra1 2.9s infinite;
+    transform-origin: bottom center;
+    box-shadow: 0 0 10px rgba(236, 97, 3, 0.5);}
+
+#sms    {  position: absolute; font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        top: 0px; left: 350px;
+        height: 500px; width: 400px;
+        animation:rot 6s 2s infinite;
+
+}
+@keyframes rot{
+    0%{
+        transform: rotateY(90deg);
+        transform: rotateY(180deg);
+        transform: rotateY(270deg);
+        transform: rotateY(360deg);
+    }
+    }
+
+    #w1{  position: absolute; font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        top: 350px; left: 400px;
+        animation:ro 8s 3s infinite;
+        height: 60px; width: 375px;
+
+      }
+      @keyframes ro{
+        0%{
+            transform: rotateY(-90deg);
+            transform: rotateY(-180deg);
+            transform: rotateY(-270deg);
+            transform: rotateY(-360deg);
+        }
+      }
